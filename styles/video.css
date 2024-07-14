@@ -1,0 +1,127 @@
+
+
+
+.video-preview-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width: 750px) {
+    .video-preview-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-preview-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.thumbnail-row {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.video-title {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+ .video-author,
+ .video-stats {
+    font-size: 12px;
+    color: rgb(96, 96 , 96)
+ }
+
+ .video-author {
+    margin-bottom: 4px;
+ }
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+
+}
+
+.channel-pic {
+    width: 45px;
+}
+
+.profile-pic-container {
+    position: relative;
+}
+
+.profile-pic-hover-container {
+    background-color: white;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 14px rgba(0, 0, 0, 0.3);
+    width: 222px;
+    opacity: 0;
+    transition: opacity 0.15s;
+
+    position: absolute;
+    bottom: -75px;
+    display: flex;
+    align-items: center;
+
+ }
+
+ .profile-pic-container:hover .profile-pic-hover-container {
+    opacity: 1;
+}
+
+ .profile-pic-hover {
+    display: inline-block;
+    border-radius: 30px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ .video-author-hover {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 3px;
+ }
+
+ .subscribers-no {
+    font-family: Roboto, Arial;
+    font-size: 15px;
+ }
+
+.profile-pic {
+    width: 37px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.video-time {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
