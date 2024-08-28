@@ -21,8 +21,8 @@ function renderVideoPreview() {
                 <div class="profile-pic-hover-container">
                   <img class="profile-pic-hover" src=${video.profilePic}>
                   <div>
-                      <p class="video-author-hover">${video.author}</p>
-                      <p class="subscribers-no">${video.subscribers} subscribers</p>
+                    <p class="video-author-hover">${video.author}</p>
+                    <p class="subscribers-no">${video.subscribers} subscribers</p>
                   </div>
                 </div>
               </div>
@@ -41,12 +41,9 @@ function renderVideoPreview() {
           </div>
         </div>
       `;
-      console.log(video.link);
 
       document.querySelector('.js-video-preview-grid')
         .innerHTML = videoPreviewHTML;
-
-      document 
     
   });
 }

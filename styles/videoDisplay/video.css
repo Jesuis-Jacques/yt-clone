@@ -1,0 +1,192 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 8px;
+
+}
+
+body {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 55px
+}
+
+.whole-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.video-playing-section {
+  flex: 2;
+  
+}
+
+.video-suggestions-section {
+  flex: 1;
+}
+
+.video-playing-container {
+  width: 640px;
+  height: 360px;
+  
+}
+
+.video-playing-thumbnail {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.creator-summary-container {
+  width: 640px
+}
+
+.video-playing-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.creator-summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-creator {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.creator-subscribers-no {
+  font-size: 12px;
+}
+
+.btn-collection {
+  margin-left: px;
+  flex: 2;
+}
+
+.btn-collection button {
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 12px 15px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 5px
+  
+}
+
+.video-playing-description-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.video-stats-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+
+.video-stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+
+.video-stats p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.video-tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.video-tags p {
+  font-size: 13px
+}
+
+.video-playing-description {
+  font-size: 14px;
+}
+
+
+.comment-section-container {
+  margin-top: 30px;
+}
+
+.comment-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px
+}
+
+.comment-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.total-comments {
+  margin-right: 5px
+}
+
+.sortby-icon {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.commenters-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.comment-info {
+  display: flex;
+  flex-direction: row;;
+}
+
+.comment-container {
+  width: 540px;
+  height: 80;
+}
+
+.comment {
+  width: 540px;
+  height: 80px;
+}
+
+.comment-reactions {
+  display: flex;
+  flex-direction: row;
+}
+
+.comment-likes {
+  margin-right: 8px;
+}
+
+.comment-dislike-btn {
+  margin-right: 50px;
+}
+
+.comment-reply-btn {
+  border: none;
+  background: none;
+}
+
+.comment-replies-box {
+  display: flex;
+  flex-direction: row;
+}

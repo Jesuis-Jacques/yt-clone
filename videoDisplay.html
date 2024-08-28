@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Title</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/videoDisplay/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+          <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+          <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-btn">
+            <img class="search-icon" src="icons/search.svg">
+            <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-btn">
+            <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+            <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img  class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtubeApps-icon-container">
+          <img class="youtubeApps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notification-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+      </div>
+        <a href="https://www.youtube.com/supersimpledev">
+          <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+        </a>
+      </div>
+    </div>
+
+    <div class="whole-page-container">
+      <div class="video-playing-section">
+        <div class="video-playing-details">
+          <div class="video-playing-container">
+              <img class="video-playing-thumbnail" src="thumbnails/thumbnail-0.webp">
+          </div>
+
+          <div class="creator-summary-container">
+            <p class="video-playing-title">
+              Video Playing Title
+            </p>
+            <div class="creator-summary">
+              <img class="creator-profile-pic" src=${video.profilePic}>
+              <div>
+                <p class="video-creator">${video.author}</p>
+                <p class="creator-subscribers-no">${video.subscribers} subscribers</p>
+              </div>
+              <div class="btn-collection">
+                <button class="join-btn">Join</button>
+                <button class="suscribe-btn">
+                  <img src="">
+                  Subscribe
+                </button>
+
+                <button class="">Liked No</button>
+                <button>Share</button>
+                <button>...</button>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="video-playing-description-container">
+            <div class="video-stats-container">
+              <div class="video-stats">
+                <p>506K views</p>
+                <p>3 years ago</p>
+              </div>
+              <div class="video-tags">
+                <p>#Tag1</p>
+                <p>#Tag2</p>
+                <p>#Tag3</p>
+              </div>
+            </div>
+            <div class="video-playing-description">
+              <p>Plenty talk about the Video</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="comment-section-container">
+          <div class="comment-header-container">
+            <div class="comment-header">
+              <span class="total-comments">826</span>
+              <span>Comments</span>
+              <div class="sortby-icon">
+                <img src="">
+                <span>Sort by</span>
+              </div>
+            </div>
+            <div>
+              <img src="">
+              <input type="text">
+            </div>
+          </div>
+          <div class="commenters-section">
+            <div class="avatar-pic-container">
+              <a href="https://www.youtube.com/supersimpledev">
+                <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+              </a>
+            </div>
+            <div class="comment-info-container">
+              <div class="comment-info">
+                <p>username</p>
+                <p>Time created</p>
+              </div>
+              <div class="comment-container">
+                <p class="comment">
+                  The full thoughts on the the commenter's mind
+                </p>
+                <div class="comment-reactions">
+                  <div class="like-btn-container">
+                    <img src="">
+                  </div>
+                  <span class="comment-likes">likes No</span>
+                  <div class="comment-dislike-btn">
+                    dislike btn
+                  </div>
+                  <button class="comment-reply-btn">
+                    Reply
+                  </button>
+                </div>
+              </div>
+              <div class="comment-replies-box">
+                <img>
+                <p>29 replies</p>
+              </div>
+            </div>
+            <div class="more-info-button">
+              ... upsidedown
+            </div> 
+          </div>
+        </div>
+      </div>
+   
+      <div class="video-suggestions-section">
+        Video-Suggestions Section
+      </div>
+    </div>
+  </body>
+</html>
