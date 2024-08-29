@@ -53,7 +53,7 @@
       <div class="video-playing-section">
         <div class="video-playing-details">
           <div class="video-playing-container">
-              <img class="video-playing-thumbnail" src="thumbnails/thumbnail-0.webp">
+            <img class="video-playing-thumbnail" src="thumbnails/thumbnail-0.webp">
           </div>
 
           <div class="creator-summary-container">
@@ -61,21 +61,29 @@
               Video Playing Title
             </p>
             <div class="creator-summary">
-              <img class="creator-profile-pic" src=${video.profilePic}>
+              <img class="creator-profile-pic" src="channel-pictures/avatar-image.jpg">
               <div>
                 <p class="video-creator">${video.author}</p>
                 <p class="creator-subscribers-no">${video.subscribers} subscribers</p>
               </div>
               <div class="btn-collection">
                 <button class="join-btn">Join</button>
-                <button class="suscribe-btn">
-                  <img src="">
+                <button class="subscribe-btn">
+                  <img class="subscribe-icon" src="icons/video-display/subscribe.svg">
                   Subscribe
                 </button>
 
-                <button class="">Liked No</button>
-                <button>Share</button>
-                <button>...</button>
+                <div class="video-playing-likes-dislikes-icons">
+                  <button class="video-playing-likes-btn">
+                    <img class="video-playing-like-icon" src="icons/video-display/hand-like-icon.png">
+                    <span>Likes</span>
+                  </button>
+                  <button class="video-playing-dislikes-btn">
+                    <img class="video-playing-dislike-icon" src="icons/video-display/hand-dislike-icon.png">
+                  </button>
+                </div>
+                <button class="share-btn">Share</button>
+                <button class="more-btn">...</button>
               </div>
             </div>
 
@@ -94,7 +102,9 @@
               </div>
             </div>
             <div class="video-playing-description">
-              <p>Plenty talk about the Video</p>
+              <p>
+                Plenty talk about the Video: We look at the 3 ways everyone becomes a software engineer: college, coding bootcamps, and self-taught. Which one you choose depends on your time, budget, and learning preferences, but all of them get you into the software engineering industry. … 
+              </p>
             </div>
           </div>
         </div>
@@ -102,59 +112,89 @@
         <div class="comment-section-container">
           <div class="comment-header-container">
             <div class="comment-header">
-              <span class="total-comments">826</span>
-              <span>Comments</span>
-              <div class="sortby-icon">
-                <img src="">
+              <span class="total-comments">
+                826 Comments
+              </span>
+              <div class="sortby-icon-box">
+                <img class="sortby-icon" src="icons/video-display/hamburger-menu.svg">
                 <span>Sort by</span>
               </div>
             </div>
-            <div>
-              <img src="">
-              <input type="text">
+            <div class="current-user-comment-box">
+              <div class="current-user-picture-box">
+                <img class="current-user-profile-picture" src="channel-pictures/avatar-image.jpg">
+              </div>
+              <input 
+                class="current-user-comment-input" type="text" placeholder="Add your comment">
             </div>
           </div>
           <div class="commenters-section">
-            <div class="avatar-pic-container">
+            <div class="commenter-avatar-box">
               <a href="https://www.youtube.com/supersimpledev">
-                <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+                <img class="commenter-picture" src="channel-pictures/my-channel.jpeg">
               </a>
             </div>
             <div class="comment-info-container">
               <div class="comment-info">
-                <p>username</p>
-                <p>Time created</p>
+                <span class="commenter-username">
+                  @jacquesnotjack
+                </span>
+                <div class="comment-time-created">
+                  2 years ago
+                </div>
               </div>
               <div class="comment-container">
-                <p class="comment">
+                <div class="video-playing-comment">
                   The full thoughts on the the commenter's mind
-                </p>
+                </div>
                 <div class="comment-reactions">
                   <div class="like-btn-container">
-                    <img src="">
+                    <img class="comment-likes-icon" src="icons/video-display/hand-like-icon.png">
                   </div>
                   <span class="comment-likes">likes No</span>
-                  <div class="comment-dislike-btn">
-                    dislike btn
-                  </div>
+                  <img 
+                    class="comment-dislike-icon"
+                    src="icons/video-display/hand-dislike-icon.png">
                   <button class="comment-reply-btn">
                     Reply
                   </button>
                 </div>
               </div>
               <div class="comment-replies-box">
-                <img>
+                <img class="comment-replies-icon" src="icons/video-display/heart-like-icon.png">
                 <p>29 replies</p>
               </div>
             </div>
             <div class="more-info-button">
-              ... upsidedown
+              ...
             </div> 
           </div>
         </div>
       </div>
    
       <div class="video-suggestions-section">
+        <div>
+          <button class="tags-link">tags</button>
+        </div>
+        <div class="video-suggestions-box">
+          <div class="video-suggestions-thumbnail-box">
+            <img class="video-suggestions-thumbnail" src="thumbnails/thumbnail-2.webp">
+          </div>
+          <div class="video-suggestions-details-box">
+            <span class="video-suggestions-title">
+              How to Become a Software Engineer in 2024 & Get a Job
+            </span>
+            <span class="video-suggestions-creator">
+              Marko
+            </span>
+            <div class="video-suggestions-stats">
+                32K views &#183; 2 weeks ago
+            </div>
+          </div>
+          <div class="video-suggestions-more">
+            ...
+          </div>
+        </div>
         Video-Suggestions Section
       </div>
     </div>
