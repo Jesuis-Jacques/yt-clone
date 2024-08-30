@@ -412,3 +412,66 @@ body {
   width: 24px;
   height: 24px;
 }
+
+
+
+.video-playing-page-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+  position: fixed;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 230px;
+  z-index: 200;
+
+  background-color: white;
+  
+}
+
+.video-playing-page-sidebar img{
+  height: 24px;
+  margin-left: 5px;
+}
+
+.video-playing-sidebar-header-section {
+  padding: 15px;
+  border-bottom: solid;
+  border-bottom-width: 0.7px;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.extra-header-link{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.current-user-activity-sidebar-link {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  border-top: solid;
+  border-top-width: 0.7px;
+  border-bottom: solid;
+  border-bottom-width: 0.7px;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.video-playing-sidebar-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  height: 40px;
+  width: 180px;
+}
+
+.video-playing-sidebar-label {
+  font-size: 15px;
+}
