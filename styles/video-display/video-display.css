@@ -416,6 +416,8 @@ body {
 
 
 .video-playing-page-sidebar {
+  background-color: white;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -429,13 +431,21 @@ body {
   width: 230px;
   z-index: 200;
 
-  background-color: white;
-  
+  overflow-y: auto;
+
 }
 
-.video-playing-page-sidebar img{
-  height: 24px;
-  margin-left: 5px;
+.is-open-sidebar .video-playing-page-sidebar {
+  display: initial;
+}
+
+.video-playing-page-sidebar img {
+  height: 22px;
+  margin: 0px 20px 0px 5px;
+}
+
+.video-playing-page-sidebar .youtube-logo {
+  margin-right: 0px;
 }
 
 .video-playing-sidebar-header-section {
@@ -451,6 +461,7 @@ body {
 }
 
 .current-user-activity-sidebar-link {
+
   margin-top: 12px;
   margin-bottom: 12px;
   padding-top: 12px;
@@ -464,14 +475,29 @@ body {
 }
 
 .video-playing-sidebar-link {
+
   display: flex;
   flex-direction: row;
   align-items: center;
 
+  padding: 0px 15px 0px 15px;
   height: 40px;
   width: 180px;
 }
 
 .video-playing-sidebar-label {
   font-size: 15px;
+
+  margin: 0px 0px 0px 5px; 
+}
+
+.utilities-box {
+  margin: 15px 0px 15px 0px;
+  padding: 15px 0px 15px 0px;
+
+  border-top: solid;
+  border-top-width: 0.7px;
+  border-bottom: solid;
+  border-bottom-width: 0.7px;
+  border-color: rgba(0, 0, 0, 0.08);
 }

@@ -3,7 +3,7 @@ export const videos = [
     id: "1",
     thumbnails: "thumbnails/thumbnail-0.webp",
     time: "1:20",
-    profilePic: "channel-pictures/channel-0.jpeg",
+    channelPic: "channel-pictures/channel-0.jpeg",
     title: "Meet the Dev",
     author: "JacquesNotJack",
     stats: {
@@ -17,7 +17,7 @@ export const videos = [
     id: "2",
     thumbnails: "thumbnails/thumbnail-1.webp",
     time: "1:20",
-    profilePic: "channel-pictures/channel-1.jpeg",
+    channelPic: "channel-pictures/channel-1.jpeg",
     title: "SIUUUUUU",
     author: "Christiano Ronaldo",
     stats: {
@@ -31,7 +31,7 @@ export const videos = [
     id: "3",
     thumbnails: "thumbnails/thumbnail-2.webp",
     time: "14:20",
-    profilePic: "channel-pictures/channel-2.jpeg",
+    channelPic: "channel-pictures/channel-2.jpeg",
     title: "Talking Tech and AI with Google CEO Sundar Pichar!",
     author: "Marques Browniee",
     stats: {
@@ -45,7 +45,7 @@ export const videos = [
     id: "4",
     thumbnails: "thumbnails/thumbnail-3.webp",
     time: "8:22",
-    profilePic: "channel-pictures/channel-3.jpeg",
+    channelPic: "channel-pictures/channel-3.jpeg",
     title: "Try Not To Laugh Challenge #9",
     author: "Markiplier",
     stats: {
@@ -59,7 +59,7 @@ export const videos = [
     id: "5",
     thumbnails: "thumbnails/thumbnail-4.webp",
     time: "9:13",
-    profilePic: "channel-pictures/channel-4.jpeg",
+    channelPic: "channel-pictures/channel-4.jpeg",
     title: "Crazy Tik Toks Taken Moments Before DISASTER",
     author: "SSSniperWolf",
     stats: {
@@ -73,7 +73,7 @@ export const videos = [
     id: "6",
     thumbnails: "thumbnails/thumbnail-5.webp",
     time: "22:09",
-    profilePic: "channel-pictures/channel-5.jpeg",
+    channelPic: "channel-pictures/channel-5.jpeg",
     title: "The Simplest Math Problem No One Can Solve - Collatz Conjecture",
     author: "Veritasium",
     stats: {
@@ -87,7 +87,7 @@ export const videos = [
     id: "7",
     thumbnails: "thumbnails/thumbnail-6.webp",
     time: "11:15",
-    profilePic: "channel-pictures/channel-6.jpeg",
+    channelPic: "channel-pictures/channel-6.jpeg",
     title: "Kadane's Algorithm to Maximum Sum Subarray Problem",
     author: "CS Dojo",
     stats: {
@@ -101,7 +101,7 @@ export const videos = [
     id: "8",
     thumbnails: "thumbnails/thumbnail-7.webp",
     time: "19:59",
-    profilePic: "channel-pictures/channel-7.jpeg",
+    channelPic: "channel-pictures/channel-7.jpeg",
     title: "Anything You Can Fit In The Circle I’ll Pay For",
     author: "MrBeast",
     stats: {

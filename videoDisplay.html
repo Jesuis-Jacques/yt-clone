@@ -15,7 +15,7 @@
   <body>
     <div class="header">
       <div class="left-section">
-        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="hamburger-menu js-hamburger-menu" src="icons/hamburger-menu.svg">
         <img class="youtube-logo" src="icons/youtube-logo.svg">
       </div>
       <div class="middle-section">
@@ -49,140 +49,9 @@
       </div>
     </div>
 
-    <div class="video-playing-page-sidebar">
-      <div class="video-playing-sidebar-header-section">
-        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-        <img class="youtube-logo" src="icons/youtube-logo.svg">
-      </div>
-      <div class="video-playing-home-sub-box">
-        <div class="video-playing-sidebar-link">
-          <img>
-          <div class="video-playing-sidebar-label">
-            Home
-          </div>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <div class="video-playing-sidebar-label">
-            Subscriptions
-          </div>
-        </div>
-      </div>
-      <div class="current-user-activity-sidebar-link">
-        <div class="video-playing-sidebar-link">
-          <span class="extra-header-link">
-            You
-          </span>
-          <img>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Your channel
-          </span>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            History
-          </span>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Playlists
-          </span>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Your videos
-          </span>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Watch Later
-          </span>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Liked videos
-          </span>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Downloads
-          </span>
-        </div>
-      </div>
-      <div>
-        <div class="extra-header-link">
-          Explore
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Trending
-          </span>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Movies
-          </span>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Latest News
-          </span>
-        </div>
-      </div>
-      <div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Settings
-          </span>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Help
-          </span>
-        </div>
-        <div class="video-playing-sidebar-link">
-          <img>
-          <span class="video-playing-sidebar-label">
-            Send your thoughts
-          </span>
-        </div>
-      </div>
-      <div>
-        <span>
-          About the Dev
-        </span>
-        <span>
-          Copyright
-        </span>
-        <span>
-          Contact the Dev
-        </span>
-        <span>
-          Terms and Conditions
-        </span>
-        <span>
-          @ 2024 Jacquesnotjack
-        </span>
-      </div>
+    <div class="js-sidebar-box"></div>
 
-      Sidebar
-    </div>
-
-    <div class="whole-page-container">
+    <div class="whole-page-container js-whole-page-container">
       <div class="video-playing-section">
         <div class="video-playing-details">
           <div class="video-playing-container">
@@ -331,5 +200,7 @@
         Video-Suggestions Section
       </div>
     </div>
+
+    <script type="module" src="scripts/videoPlaying.js"></script>
   </body>
 </html>

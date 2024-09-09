@@ -17,9 +17,9 @@ function renderVideoPreview() {
           <div class="video-info-grid">
             <div class="channel-pic">
               <div class="profile-pic-container">
-                <img class="profile-pic" src=${video.profilePic}>
+                <img class="profile-pic" src=${video.channelPic}>
                 <div class="profile-pic-hover-container">
-                  <img class="profile-pic-hover" src=${video.profilePic}>
+                  <img class="profile-pic-hover" src=${video.channelPic}>
                   <div>
                     <p class="video-author-hover">${video.author}</p>
                     <p class="subscribers-no">${video.subscribers} subscribers</p>
