@@ -335,6 +335,8 @@ body {
 .comment-replies-box {
   display: flex;
   flex-direction: row;
+
+  align-items: center;
 }
 
 .comment-replies-icon {
@@ -455,9 +457,15 @@ body {
   border-color: rgba(0, 0, 0, 0.08);
 }
 
-.extra-header-link{
+.extra-header-link-you
+.extra-header-link-explore {
   font-size: 18px;
   font-weight: 600;
+
+}
+
+.extra-header-link-explore {
+  padding-left: 15px;
 }
 
 .current-user-activity-sidebar-link {

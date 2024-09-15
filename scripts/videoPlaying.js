@@ -168,7 +168,7 @@ function openSidebar () {
               </div>
               <div class="current-user-activity-sidebar-link">
                 <div class="video-playing-sidebar-link">
-                  <span class="extra-header-link">
+                  <span class="extra-header-link-you">
                     You
                   </span>
                   <img class="arrow-icon" src="icons/video-display/arrow-right-icon.png">
@@ -217,7 +217,7 @@ function openSidebar () {
                 </div>
               </div>
               <div>
-                <div class="extra-header-link">
+                <div class="extra-header-link-explore">
                   Explore
                 </div>
                 <div class="video-playing-sidebar-link">
